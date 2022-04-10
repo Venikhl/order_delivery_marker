@@ -1,8 +1,4 @@
-export class User {
-    private date: string;
-    public name: string;
-
-    public constructor(){
-        this.date = new Date().toDateString();
+export class Order {
+    constructor (public date: Date, public product: string) {
     }
 }
